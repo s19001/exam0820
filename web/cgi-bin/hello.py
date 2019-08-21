@@ -7,8 +7,7 @@ print("Content-Type: text/html")
 print("")
 
 aisatu = ["hello", "howdy", "gday", "bonjour", "guten tag"]
-n = random.randint(0, 4)
-hello = aisatu[n]
+hello = random.choice(aisatu)
 
 print("""
     <html>
